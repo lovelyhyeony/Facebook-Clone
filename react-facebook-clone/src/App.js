@@ -1,3 +1,4 @@
+import React from 'react';
 import "./App.css";
 import Feed from "./components/Feed/Feed";
 import Header from "./components/Header/Header";
@@ -15,6 +16,8 @@ function App() {
         <Login />
       ) : (
         <>
+        {// <> : React.Fragments
+        }
           <Header />
           <div className="app_body">
             <Sidebar />
